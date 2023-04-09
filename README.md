@@ -16,7 +16,7 @@
 <p>O aplicativo utiliza a biblioteca <code>requests</code> para fazer uma solicitação HTTP ao site <code>https://santo.cancaonova.com/</code>. Em seguida, a biblioteca <code>BeautifulSoup</code> é usada para analisar o conteúdo HTML da página e extrair informações relevantes, como o nome do santo, a imagem, a legenda da imagem e a descrição.</p>
 <p>A função <code>get_saint_of_the_day()</code> é responsável por todo o processo de busca e exibição das informações. O aplicativo utiliza <code>PySimpleGUI</code> para criar e exibir uma janela pop-up com as informações extraídas, incluindo uma imagem do santo e a descrição.</p>
 
-<h2>Saída de exemplo</h2>
+<h2>Exemplo</h2>
 <p>A janela pop-up exibirá informações detalhadas sobre o Santo do Dia, incluindo:</p>
 <ul>
     <li>Data atual</li>
