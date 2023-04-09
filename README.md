@@ -1,5 +1,5 @@
 <h1>Santo do Dia</h1>
-<p>Este projeto é um aplicativo simples e eficaz para encontrar o Santo do Dia e exibi-lo em uma janela pop-up no computador. Ele foi projetado para ajudar os usuários a se conectar com a fé e se inspirar nos santos que são lembrados e comemorados a cada dia.</p>
+<p>Este projeto é um aplicativo muito bom e eficaz para encontrar o Santo do Dia e exibi-lo em uma janela pop-up no computador. Ele foi projetado para ajudar os usuários a se conectar com a fé e se inspirar nos santos que são lembrados e comemorados a cada dia.</p>
 
 <h2>Tecnologias e Conceitos</h2>
 <ul>
