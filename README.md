@@ -43,4 +43,4 @@
 <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue no GitHub ou enviar um pull request com suas sugestões e melhorias. Por favor, siga as diretrizes de contribuição e o código de conduta do projeto.</p>
 
 <h2>Licença</h2>
-<p>Este projeto está licenciado sob a <a href="https://opensource.org/licenses/MIT">Licença MIT</a>, que permite uso, cópia, modificação, mesclagem
+<p>Este projeto está licenciado sob a Licença MIT que permite o uso, cópia, modificação e distribuição livre do código-fonte, desde que a licença original seja incluída e os direitos autorais sejam respeitados.
