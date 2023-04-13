@@ -1,46 +1,46 @@
-<h1>Santo do Dia</h1>
-<p>Este projeto é um aplicativo muito bom e eficaz para encontrar o Santo do Dia e exibi-lo em uma janela pop-up no computador. Ele foi projetado para ajudar os usuários a se conectar com a fé e se inspirar nos santos que são lembrados e comemorados a cada dia.</p>
+# Saint of the Day
 
-<h2>Tecnologias e Conceitos</h2>
-<ul>
-    <li>Python</li>
-    <li>Web scraping com a biblioteca BeautifulSoup</li>
-    <li>Beautiful Soup</li>
-    <li>Construindo uma interface gráfica do usuário (GUI) usando a biblioteca PySimpleGUI</li>
-    <li>Enviando solicitações HTTP usando Requests</li>
-    <li>Expressões regulares (regex) com o módulo re</li>
-    <li>Tempfile</li>
-</ul>
+Welcome to the Saint of the Day project! This application allows users to discover information about the saint of the day, providing a daily source of inspiration and learning about Catholic saints. The application fetches data from the Canção Nova website and presents it in an easy-to-read popup format. It's a great project to showcase your skills with web scraping, regular expressions, and GUI development in Python.
 
-<h2>Como funciona</h2>
-<p>O aplicativo utiliza a biblioteca <code>requests</code> para fazer uma solicitação HTTP ao site <code>https://santo.cancaonova.com/</code>. Em seguida, a biblioteca <code>BeautifulSoup</code> é usada para analisar o conteúdo HTML da página e extrair informações relevantes, como o nome do santo, a imagem, a legenda da imagem e a descrição.</p>
-<p>A função <code>get_saint_of_the_day()</code> é responsável por todo o processo de busca e exibição das informações. O aplicativo utiliza <code>PySimpleGUI</code> para criar e exibir uma janela pop-up com as informações extraídas, incluindo uma imagem do santo e a descrição.</p>
+## How it Works
 
-<h2>Exemplo</h2>
-<p>A janela pop-up exibirá informações detalhadas sobre o Santo do Dia, incluindo:</p>
-<ul>
-    <li>Data atual</li>
-    <li>Nome do santo</li>
-    <li>Imagem do santo</li>
-    <li>Legenda da imagem</li>
-    <li>Descrição do santo</li>
-</ul>
+The Saint of the Day application retrieves the saint's name, image, image caption, and description from the Canção Nova website, focusing on the saint's feast day. It uses the `requests` library to fetch the webpage's content and `BeautifulSoup` to parse the HTML, extract the relevant data, and reformat it for display. The user interface is built using `PySimpleGUI`.
+
+## Technologies and Techniques
+
+- Python
+- Web scraping with `requests` and `BeautifulSoup`
+- Regular expressions for text manipulation
+- `PySimpleGUI` for creating the graphical user interface
+- File handling for temporary image storage
+
+## Example
+
+When the Saint of the Day application is run, it fetches information about the saint whose feast day it is and presents the data in a well-formatted popup window. The popup displays the date, saint's name, image, image caption, and description.
+
 <p align="center">
   <img src="https://i.imgur.com/VJtVc4n.jpeg" width="350" title="hover text">
   <img src="https://i.imgur.com/EaN9s6l.png" width="350" alt="accessibility text">
 </p>
 
-<h2>Modificações e aplicações úteis</h2>
-<p>Este projeto pode ser adaptado para diversas aplicações. Algumas modificações possíveis incluem:</p>
-<ul>
-    <li>Scraping para exibição de outros conteúdos diários, como citações, horóscopos, eventos históricos ou até mesmo a previsão do tempo.</li>
-    <li>Expandir o aplicativo para incluir informações adicionais, como orações, leituras ou reflexões.</li>
-    <li>Integrar o aplicativo com outros serviços, como calendários ou gerenciadores de tarefas, para fornecer lembretes ou notificações.</li>
-    <li>Criar uma versão de aplicativo da web do aplicativo usando uma estrutura da web como Flask ou Django, tornando-a acessível a partir de um navegador.</li>
-</ul>
+## Modification for Other Applications
 
-<h2>Contribuição</h2>
-<p>Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue no GitHub ou enviar um pull request com suas sugestões e melhorias. Por favor, siga as diretrizes de contribuição e o código de conduta do projeto.</p>
+The Saint of the Day application can be easily modified for various purposes. For example, you could:
 
-<h2>Licença</h2>
-<p>Este projeto está licenciado sob a Licença MIT que permite o uso, cópia, modificação e distribuição livre do código-fonte, desde que a licença original seja incluída e os direitos autorais sejam respeitados.
+- Display information about saints with different criteria, such as alphabetically or by country
+- Create a calendar application that includes feast days and other significant events in the Catholic liturgical year
+- Integrate the project with a notification system to send daily reminders or emails with the saint's information
+
+## Contribution
+
+Contributions to improve or expand the project are highly appreciated. To contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add a new feature'`)
+4. Push your branch to your fork (`git push origin feature-branch`)
+5. Create a pull request
+
+## License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). You are free to use, modify, and distribute the code as long as the license terms are met.
